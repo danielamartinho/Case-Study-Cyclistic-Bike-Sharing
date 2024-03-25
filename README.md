@@ -2,14 +2,11 @@
 
 ![bikesharing](assets/bikesharing.jpg)
 *Image: Photo by <a href="https://unsplash.com/@dovilerm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dovile Ramoskaite</a> on <a href="https://unsplash.com/photos/people-riding-bike-x8rDSFN2DpY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*
-
- :octocat: 
  
 ## Tools Used 
 
-> 1. **Google Sheets** (Cleaning)
-> 3. **BigQuery** (Analysis)
-> 4. **Tableau Public** (Viz)
+> 1. **BigQuery** (Processing & Analysis)
+> 2. **Tableau Public** (Viz)
 
 ## Introduction 
 
@@ -43,7 +40,7 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
 
 ### Process => Cleaning & Transformation
 
-- **Data Cleaning (Google Sheets)**
+- **Data Cleaning**
   
 
 
