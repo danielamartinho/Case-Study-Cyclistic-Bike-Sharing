@@ -9,7 +9,7 @@
 > 1. **Google Cloud BigQuery** (Analysis)
 > 2. **Tableau Public** (Viz)
 
-## Introduction 
+## Introduction
 
 This case study is part of the Google Data Analytics Professional Certificate course and will focus on analysing data about a fictional bike-sharing company called Cyclistic.
 
