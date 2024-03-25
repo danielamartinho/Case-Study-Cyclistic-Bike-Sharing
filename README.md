@@ -5,7 +5,8 @@
  
 ## Tools Used 
 
-> 1. **Google Cloud BigQuery** (Processing & Analysis)
+> 1. **Google Sheets** (Processing)
+> 1. **Google Cloud BigQuery** (Analysis)
 > 2. **Tableau Public** (Viz)
 
 ## Introduction 
@@ -40,8 +41,17 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
 
 ### Process => Cleaning & Transformation
 
-- **Data Cleaning**
-  
+- **Data Cleaning** (Google Sheets)
+  - Checked for Duplicates and Blank values;
+  - Removed the columns: *start_lat, start_lng, end_lat, end_lng, start_station_name,	start_station_id,	end_station_name, and	end_station_id*;
+  - Added the column *ride_length*, and set the time format to HH:MM:SS;
+  - Added the column *day_of_week*. and set the number format to number without decimals;
+  - Sorting the tables (ascending, column *started_at*);
+
+ - **Data Transformation** (Google BigQuery)
+   - Imported the data;
+   - Merged the data;
+   - Manipulated the data; 
 
 
 
