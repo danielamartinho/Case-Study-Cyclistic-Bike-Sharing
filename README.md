@@ -53,8 +53,6 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
    - Merged the data;
    - Manipulated the data; 
 
-
-
-### Analyze => 
+### Analyze => Insights & Findings
 
 ### Share => Viz
