@@ -15,10 +15,9 @@ This case study is part of the Google Data Analytics Professional Certificate co
 
 ### Stakeholders
 
-> 1. **Cyclistic** -> A bike-share program includes over 5,800 bikes and 600 docking stations, with adaptive options for 8% of users, and 30% using bikes for daily commuting.
-> 2. **Lily Moreno** -> The marketing director, spearheads campaigns across multiple channels to promote the bike-share program.
-> 3. **Cyclistic marketing analytics team** -> A team of data analysts that guides Cyclistic's marketing strategy through data collection, analysis, and reporting.
-> 4. **Cyclistic executive team** -> The meticulous executive team will determine the approval of the recommended marketing program.
+> 1. **Lily Moreno** -> The marketing director, spearheads campaigns across multiple channels to promote the bike-share program.
+> 2. **Cyclistic marketing analytics team** -> A team of data analysts that guides Cyclistic's marketing strategy through data collection, analysis, and reporting.
+> 3. **Cyclistic executive team** -> The meticulous executive team will determine the approval of the recommended marketing program.
 
 ### About the Company 
 
@@ -61,3 +60,9 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
 ![analyze4](assets/analyze4.png)
 
 ### Share => Viz
+
+![sum](assets/sum.png)
+![duration](assets/duration.png)
+![chart_month](assets/chart_month.png)
+![chart_day](assets/chart_day.png)
+![chart_biketype](assets/chart_biketype.png)
