@@ -66,3 +66,19 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
 ![chart_month](assets/chart_month.png)
 ![chart_day](assets/chart_day.png)
 ![chart_biketype](assets/chart_biketype.png)
+
+### Act => Key Takeaways & Recommendations
+
+- Key takeaways:
+  - Variation per month:
+  - Variation per day or set of days:
+  - Usage in Peak Hours:
+  - Duration of the Ride
+
+- Recommendations:
+  - Marketing campaigns for casual riders
+  - Discounts
+  - Convenience
+  - Custom Plans to encourage transition
+
+
