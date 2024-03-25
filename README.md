@@ -3,11 +3,13 @@
 ![bikesharing](assets/bikesharing.jpg)
 *Image: Photo by <a href="https://unsplash.com/@dovilerm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dovile Ramoskaite</a> on <a href="https://unsplash.com/photos/people-riding-bike-x8rDSFN2DpY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*
 
+ :octocat: 
+ 
 ## Tools Used 
 
-> 1. **Spreadsheets** (Cleaning)
-> 2. **BigQuery** (Analysis)
-> 3. **Tableau Public** (Viz)
+> 1. **Google Sheets** (Cleaning)
+> 3. **BigQuery** (Analysis)
+> 4. **Tableau Public** (Viz)
 
 ## Introduction 
 
@@ -36,11 +38,15 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
 
 - The data has been made available by **Motivate International Inc.** under this
 [license](https://divvybikes.com/data-license-agreement), and it can be downloaded [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
-- The data utilized would encompass rider information over a one-year timeframe, extending from August 2021 to July 2022.
-- The data collected spans from April 2020 to March 2024. I decided to focus on two years from April 2020 to April 2022 due to the large volume of data, allowing for a comprehensive multi-year analysis.
+- The data analysed would encompass rider information over a quarter timeframe, extending from April 2021 to June 2021 (Q2), due to the large volume of data.
 - The data is Reliable, Original, Comprehensive, Current, and Cited (ROCCC).
 
-### Process => Cleaning & Transforming
+### Process => Cleaning & Transformation
+
+- **Data Cleaning (Google Sheets)**
+  
+
+
 
 ### Analyze => 
 
