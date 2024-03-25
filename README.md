@@ -3,3 +3,8 @@
 ![bikesharing](assets/bikesharing.jpg)
 *Image: Photo by <a href="https://unsplash.com/@dovilerm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dovile Ramoskaite</a> on <a href="https://unsplash.com/photos/people-riding-bike-x8rDSFN2DpY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*
 
+## Tools Used 
+
+> 1. Spreadsheets (Cleaning)
+> 2. BigQuery (Analysis)
+> 3. Tableau Public (Viz)
