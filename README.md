@@ -5,7 +5,7 @@
  
 ## Tools Used 
 
-> 1. **BigQuery** (Processing & Analysis)
+> 1. **Google Cloud BigQuery** (Processing & Analysis)
 > 2. **Tableau Public** (Viz)
 
 ## Introduction 
