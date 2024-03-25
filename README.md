@@ -35,7 +35,7 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
 
 - The data has been made available by **Motivate International Inc.** under this
 [license](https://divvybikes.com/data-license-agreement), and it can be downloaded [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
-- The data analysed would encompass rider information over a quarter timeframe, extending from April 2021 to June 2021 (Q2), due to the large volume of data.
+- The data analysed would encompass rider information over a quarter timeframe, extending from January 2023 to March 2023 (Q1), due to the large volume of data.
 - The data is Reliable, Original, Comprehensive, Current, and Cited (ROCCC).
 
 ### Process => Cleaning & Transformation
