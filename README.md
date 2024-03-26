@@ -87,9 +87,16 @@ SELECT
 
 ### Analyze => Insights & Findings
 
+- Total amount of rides, total ride duration, average ride duration, higher ride duration and lower ride duration in **munites** of Casuals vs Members 
 ![analyze1](assets/analyze1.png)
+
+- Total amount of rides, total ride duration, average ride duration, higher ride duration and lower ride duration in **munites** per **month** of Casuals vs Members 
 ![analyze2](assets/analyze2.png)
+
+- Total amount of rides, total ride duration, average ride duration, higher ride duration and lower ride duration in **munites** per **day** of Casuals vs Members
 ![analyze3](assets/analyze3.png)
+
+- Total amount of rides, total ride duration, average ride duration, higher ride duration and lower ride duration in **munites** per **hour** of Casuals vs Members
 ![analyze4](assets/analyze4.png)
 
 
