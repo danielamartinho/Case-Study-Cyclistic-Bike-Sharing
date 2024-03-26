@@ -49,9 +49,9 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
 
 - **Data Transformation** (Google Cloud BigQuery)
    
-  > Imported the data into BigQuery;
+  -Imported the data into BigQuery;
      
-  > Merged the data - 3 datasets into 1 single dataframe using the UNION ALL function;
+  -Merged the data - 3 datasets into 1 single dataframe using the UNION ALL function;
   
 ``` 
   SELECT *
@@ -64,7 +64,7 @@ SELECT *
 FROM `case-study-bike-sharing-418315.cyclistic.march_2023`
 ``` 
    
- > Manipulated the data by separating minutes, hours, days, and months;
+ -Manipulated the data by separating minutes, hours, days, and months;
 
 ```
 SELECT
