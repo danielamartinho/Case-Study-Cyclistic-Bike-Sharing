@@ -94,31 +94,31 @@ SELECT
 
 ### Share => Viz
 
-- Sum of Rider of **Casual** vs **Member**
+#### - Sum of Rider of **Casual** vs **Member** 
 
 The data shows that members take about three times as many rides as casual riders do. 
 
 ![sum](assets/sum.png)
 
-- Total Ride Duration of **Casual** vs **Member**
+#### - Total Ride Duration of **Casual** vs **Member**
 
 The data points to the fact that member's ride duration in sum is higher than casual riders.
 
 ![duration](assets/duration.png)
 
-- Riders per Month of **Casual** vs **Member**
+#### - Riders per Month of **Casual** vs **Member**
 
 The data indicates a pattern of usage increasing with the seasons. As we move towards spring, both casual riders and members tend to use the service more frequently.
 
 ![chart_month](assets/chart_month.png)
 
-- Riders per Day of the Week of **Casual** vs **Member**
+#### - Riders per Day of the Week of **Casual** vs **Member**
 
 The data suggests that casual users are more inclined to use the bikes on weekends, while members use them more on weekdays in Q1 2023.
 
 ![chart_day](assets/chart_day.png)
 
-- Number of Rides per Bike Type of **Casual** vs **Member**
+#### - Number of Rides per Bike Type of **Casual** vs **Member**
 
 The data suggests that members prefer electric bikes, while casuals oscillate between electric, classic, and sometimes docked bikes in Q1 2023.
 
