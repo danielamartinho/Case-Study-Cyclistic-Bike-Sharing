@@ -50,6 +50,7 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
   - Added the column *day_of_week*. and set the number format to number without decimals;
   - Sorting the tables (ascending, column *started_at*);
 
+
 - **Data Transformation** (Google Cloud BigQuery)
    
   - Imported the data into BigQuery;
@@ -66,7 +67,7 @@ SELECT *
 FROM `case-study-bike-sharing-418315.cyclistic.march_2023`
 ``` 
    
-  - Manipulated the data by separating minutes, hours, days, and months;
+  - Manipulated the data by separating minutes, hours, days, and months in columns;
 ```
 SELECT
    ride_id,
@@ -128,15 +129,14 @@ The data suggests that members prefer electric bikes, while casuals oscillate be
 ### Act => Key Takeaways & Recommendations
 
 - **Key takeaways**:
-  - Variation per month:
-  - Variation per day or set of days:
-  - Usage in Peak Hours:
-  - Duration of the Ride
+  - Monthly Variation => During the spring month, both casual riders and members experience a peak in user traffic. During the winter months, there's a noticeable decrease in user traffic for both groups.
+  - Variation per day or set of days => Casual riders tend to ride more on weekends, whereas member riders exhibit a similar trend of increased usage during weekdays.
+  - Duration of the Ride => Member riders as a whole have a total duration of rides higher than casual riders.
 
 - **Recommendations**:
-  - Marketing campaigns for casual riders
-  - Discounts
-  - Convenience
-  - Custom Plans to encourage transition
+  - Marketing campaigns for casual riders => Run specific advertising campaigns during weekends, and peak seasons to show off the benefits of annual membership and emphasize how it can make a difference for casual riders.
+  - Discounts => Provide special discounts or rewards to entice casual riders to switch to annual memberships, showcasing the advantages and money-saving opportunities of making a longer-term commitment.
+  - Convenience => Make bike storage better, especially on weekends, so casual riders can take longer rides and feel more encouraged to sign up for annual membership.
+  
 
 
