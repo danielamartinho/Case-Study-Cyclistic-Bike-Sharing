@@ -11,7 +11,7 @@
 
 ## Introduction
 
-This case study is part of the Google Data Analytics Professional Certificate course and will focus on analysing data about a fictional bike-sharing company called Cyclistic.
+This case study is part of the Google Data Analytics Professional Certificate course and will focus on analysing Q1 data from a fictional bike-sharing company called Cyclistic.
 
 ### Stakeholders
 
@@ -47,10 +47,38 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
   - Added the column *day_of_week*. and set the number format to number without decimals;
   - Sorting the tables (ascending, column *started_at*);
 
- - **Data Transformation** (Google BigQuery)
-   - Imported the data;
-   - Merged the data;
-   - Manipulated the data; 
+ - **Data Transformation** (Google Cloud BigQuery)
+   
+   - Imported the data into BigQuery;
+     
+   - Merged the data - 3 datasets into 1 single dataframe using the UNION ALL function;
+  ``` 
+  SELECT *
+FROM `case-study-bike-sharing-418315.cyclistic.january_2023`
+UNION ALL 
+SELECT *
+FROM `case-study-bike-sharing-418315.cyclistic.february_2023`
+UNION ALL
+SELECT *
+FROM `case-study-bike-sharing-418315.cyclistic.march_2023`
+ ``` 
+   
+   - Manipulated the data by separating minutes, hours, days, and months;
+ ```
+SELECT
+   ride_id,
+   rideable_type,
+   started_at,
+   ended_at,
+   member_casual,
+  TIMESTAMP_DIFF( ended_at ,started_at, minute) AS minutes,
+  format_date('%A', started_at) AS day ,
+  format_date('%B', started_at) AS month,
+  extract(hour FROM started_at) AS hour
+ FROM `case-study-bike-sharing-418315.cyclistic.q1_tripdata_2023`
+ WHERE (TIMESTAMP_DIFF( ended_at ,started_at, minute)) >0
+ ORDER BY started_at ASC
+ ```  
 
 ### Analyze => Insights & Findings
 
