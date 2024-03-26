@@ -47,12 +47,13 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
   - Added the column *day_of_week*. and set the number format to number without decimals;
   - Sorting the tables (ascending, column *started_at*);
 
- - **Data Transformation** (Google Cloud BigQuery)
+- **Data Transformation** (Google Cloud BigQuery)
    
-   - Imported the data into BigQuery;
+  > Imported the data into BigQuery;
      
-   - Merged the data - 3 datasets into 1 single dataframe using the UNION ALL function;
-  ``` 
+  > Merged the data - 3 datasets into 1 single dataframe using the UNION ALL function;
+  
+``` 
   SELECT *
 FROM `case-study-bike-sharing-418315.cyclistic.january_2023`
 UNION ALL 
@@ -61,10 +62,11 @@ FROM `case-study-bike-sharing-418315.cyclistic.february_2023`
 UNION ALL
 SELECT *
 FROM `case-study-bike-sharing-418315.cyclistic.march_2023`
- ``` 
+``` 
    
-   - Manipulated the data by separating minutes, hours, days, and months;
- ```
+ > Manipulated the data by separating minutes, hours, days, and months;
+
+```
 SELECT
    ride_id,
    rideable_type,
