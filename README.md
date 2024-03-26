@@ -23,6 +23,7 @@ This case study is part of the Google Data Analytics Professional Certificate co
 
 Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles across 692 stations in Chicago, allowing users to unlock and return bikes at any station. While initially targeting broad consumer segments, the focus now shifts to converting casual riders into annual members for greater profitability, with the marketing team planning to analyze historical trip data to inform targeted strategies.
 
+
 ## Process 
 
 ### Ask => Business Task 
@@ -31,12 +32,14 @@ Since 2016, Cyclistic's bike-share program has grown to include 5,824 bicycles a
 > 2. *Why would casual riders buy Cyclistic annual memberships?*
 > 3. *How can Cyclistic use digital media to influence casual riders to become members?*
 
+
 ### Prepare => Source, Organization & Credibility
 
 - The data has been made available by **Motivate International Inc.** under this
 [license](https://divvybikes.com/data-license-agreement), and it can be downloaded [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
 - The data analysed would encompass rider information over a quarter timeframe, extending from January 2023 to March 2023 (Q1), due to the large volume of data.
 - The data is Reliable, Original, Comprehensive, Current, and Cited (ROCCC).
+
 
 ### Process => Cleaning & Transformation
 
@@ -80,6 +83,7 @@ SELECT
  ORDER BY started_at ASC
  ```  
 
+
 ### Analyze => Insights & Findings
 
 ![analyze1](assets/analyze1.png)
@@ -87,13 +91,34 @@ SELECT
 ![analyze3](assets/analyze3.png)
 ![analyze4](assets/analyze4.png)
 
+
 ### Share => Viz
 
+- Sum of Rider of **Casual** vs **Member**
+The data shows that members take about three times as many rides as casual riders do. 
+
 ![sum](assets/sum.png)
+
+- Total Ride Duration of **Casual** vs **Member**
+The data points to the fact that member's ride duration in sum is higher than casual riders.
+
 ![duration](assets/duration.png)
+
+- Riders per Month of **Casual** vs **Member**
+The data indicates a pattern of usage increasing with the seasons. As we move towards spring, both casual riders and members tend to use the service more frequently.
+
 ![chart_month](assets/chart_month.png)
+
+- Riders per Day of the Week of **Casual** vs **Member**
+The data suggests that casual users are more inclined to use the bikes on weekends, while members use them more on weekdays in Q1 2023.
+
 ![chart_day](assets/chart_day.png)
+
+- Number of Rides per Bike Type of **Casual** vs **Member** 
+The data suggests that members prefer electric bikes, while casuals oscillate between electric, classic, and sometimes docked bikes in Q1 2023.
+
 ![chart_biketype](assets/chart_biketype.png)
+
 
 ### Act => Key Takeaways & Recommendations
 
